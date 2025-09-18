@@ -1,0 +1,21 @@
+body {
+  background: #f5f7fb;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+}
+
+.ant-card {
+  border-radius: 14px;
+  min-height: 240px;
+  /* 🔹 bigger */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.ant-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+.ant-card .ant-card-body {
+  padding: 22px !important;
+  /* 🔹 more padding */
+}
